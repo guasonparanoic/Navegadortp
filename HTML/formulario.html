@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../IMAGENES/imagen en nav.png" alt="imagen de nav">
+        </div>
+
+        <nav>
+            <ul class="navlinks">
+                <li><a href="index.html"> Que es Magic ?</a></li>
+                <li><a href="aprendeajugar.html">Aprender a jugar</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+                <li><a href="conseguituscartas.html">Consegui tus cartas</a></li>
+                <li><a href="formulario.html">Registrate</a></li>
+            </ul>
+        </nav>
+        <a href="" class="btn"><button>Contactanos</button></a>
+
+        <a href="#fondo"><img align="right"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALdJREFUSEvtldENgzAMRI9NOhqdpO0kMFpHqU7CkpXaPqI2Qkjk27mHnZcwYfCaBufjcMANwPuXLqsOli38JQBlXQbgpnkLfgLIILIuAzwAMNhWBPHhrFsB3NtuqxFVkF3hhCmLIggP3saXfrl1ogCsayF+CuFYfIECmKYRRIarEbX6eYgP/6umhLArs+XS9MsgXrhzaWpKD9G0fVYyTcvHVl20COI1lb+KXoAM7HlNu8OiDefv4AN8eTYZJMaPHAAAAABJRU5ErkJggg==" />
+        </a>
+    </header>
+    <div class="bodyform">
+        <div class="contenedor">
+            <div class="cabecera">
+                <h2>Forma parte de la comunidad!</h2>
+            </div>
+            <form id="formulario" action="procesar.php" method="">
+
+                <div class="form-control">
+                    <label for="usuario">Nombre de usuario</label>
+                    <input id="usuario" type="text">
+                    <p></p>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email">
+                    <p></p>
+                </div>
+
+                <div class="form-control">
+                    <label for="pass">Password</label>
+                    <input id="pass" type="password">
+                    <p></p>
+                </div>
+
+                <div class="form-control">
+                    <label for="passConfirma">Confirmar Password</label>
+                    <input id="passConfirma" type="password">
+                    <p></p>
+                </div>
+
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="../JS/java.js"></script>
+
+</body>
+
+</html>
